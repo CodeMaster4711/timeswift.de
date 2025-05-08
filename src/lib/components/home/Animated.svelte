@@ -7,7 +7,6 @@
     'produktiver',
     'einfacher',
     'besser',
-    'übersichtlicher',
     'smarter'
   ];
   

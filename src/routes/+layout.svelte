@@ -25,7 +25,7 @@
     };
 </script>
 
-<header class={`fixed w-full z-50 transition-all duration-300 ${scrollY > 20 ? 'bg-gray-900/95 shadow-lg backdrop-blur-sm' : 'bg-transparent'}`}>
+<header class={`fixed w-full z-50 transition-all duration-300 bg-black shadow-lg`}>
     <div class="container mx-auto px-4">
         <div class="flex items-center justify-between py-4">
             <!-- Logo -->
@@ -37,11 +37,11 @@
             
             <!-- Desktop Navigation -->
             <nav class="hidden md:flex items-center space-x-8">
-                <a href="/" class="text-gray-300 hover:text-red-500 transition-colors py-2 border-b-2 border-transparent hover:border-red-500">Home</a>
-                <a href="/features" class="text-gray-300 hover:text-red-500 transition-colors py-2 border-b-2 border-transparent hover:border-red-500">Features</a>
-                <a href="/pricing" class="text-gray-300 hover:text-red-500 transition-colors py-2 border-b-2 border-transparent hover:border-red-500">Pricing</a>
-                <a href="/about" class="text-gray-300 hover:text-red-500 transition-colors py-2 border-b-2 border-transparent hover:border-red-500">Company</a>
-                <button class="border-2 border-red-600 text-white px-5 py-2 rounded-full transition-colors hover:border-red-700 bg-transparent text-red-600 hover:text-red-700">
+                <a href="/" class="text-gray-300 hover:text-red-500 transition-colors py-2 border-b-2 border-transparent hover:border-red-500">Startseite</a>
+                <a href="/features" class="text-gray-300 hover:text-red-500 transition-colors py-2 border-b-2 border-transparent hover:border-red-500">Funktionen</a>
+                <a href="/pricing" class="text-gray-300 hover:text-red-500 transition-colors py-2 border-b-2 border-transparent hover:border-red-500">Preise</a>
+                <a href="/about" class="text-gray-300 hover:text-red-500 transition-colors py-2 border-b-2 border-transparent hover:border-red-500">Über uns</a>
+                <button class="bg-red-600 hover:bg-red-700 text-white px-5 py-2 rounded-md transition-colors">
                     Login
                 </button>
             </nav>
@@ -70,11 +70,11 @@
         <div class="md:hidden bg-gray-800 animate-fadeIn">
             <div class="container mx-auto px-4 py-4">
                 <div class="flex flex-col space-y-4">
-                    <a href="/" class="text-gray-300 hover:text-red-500 transition-colors py-3 px-2 border-l-4 border-transparent hover:border-red-500">Home</a>
-                    <a href="/features" class="text-gray-300 hover:text-red-500 transition-colors py-3 px-2 border-l-4 border-transparent hover:border-red-500">Features</a>
-                    <a href="/pricing" class="text-gray-300 hover:text-red-500 transition-colors py-3 px-2 border-l-4 border-transparent hover:border-red-500">Pricing</a>
-                    <a href="/about" class="text-gray-300 hover:text-red-500 transition-colors py-3 px-2 border-l-4 border-transparent hover:border-red-500">Company</a>
-                    <button class="border-2 border-red-600 text-red-600 py-3 rounded-full transition-colors hover:border-red-700 hover:text-red-700 bg-transparent">
+                    <a href="/" class="text-gray-300 hover:text-red-500 transition-colors py-3 px-2 border-l-4 border-transparent hover:border-red-500">Startseite</a>
+                    <a href="/features" class="text-gray-300 hover:text-red-500 transition-colors py-3 px-2 border-l-4 border-transparent hover:border-red-500">Funktionen</a>
+                    <a href="/pricing" class="text-gray-300 hover:text-red-500 transition-colors py-3 px-2 border-l-4 border-transparent hover:border-red-500">Preise</a>
+                    <a href="/about" class="text-gray-300 hover:text-red-500 transition-colors py-3 px-2 border-l-4 border-transparent hover:border-red-500">Über uns</a>
+                    <button class="bg-red-600 hover:bg-red-700 text-white py-3 rounded-md transition-colors">
                         Login
                     </button>
                 </div>
